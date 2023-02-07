@@ -1,0 +1,166 @@
+/**********ID SELECTORS**********/
+
+
+
+/**********TYPOGRAPHY**********/
+
+body {
+    color: #40514E; 
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 6rem;
+    color: #FFEBAD;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #FFEBAD;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ABD9FF;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 8px;
+    width: 4%;
+    padding-top: 100px;
+}
+
+p {
+    line-height: 2;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.profile-text {
+    width: 30%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+a {
+    color: #FFEBAD;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#40514E;
+}
+
+/**********HEAD CONTAINER**********/
+
+/**
+.head-container {
+    background-color: #ABD9FF;
+    height: 40px;
+}
+**/
+
+.top-container {
+    background-color: #ABD9FF;
+    position: relative;
+    padding-top: 100px;
+}
+
+/**********BODY CONTAINER 1**********/
+
+.middle-container {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+/**********FOOTER CONTAINER**********/
+
+.bottom-container {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ABD9FF;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.social-links {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.copyright {
+    padding-top: 40px;
+    color:#40514E;
+    font-size: 0.75rem; 
+}
+
+/**********BUTTONS**********/
+
+.btn {
+    background: #ABD9FF;
+    background-image: -webkit-linear-gradient(top, #ABD9FF, #C3F8FF);
+    background-image: -moz-linear-gradient(top, #ABD9FF, #C3F8FF);
+    background-image: -ms-linear-gradient(top, #ABD9FF, #C3F8FF);
+    background-image: -o-linear-gradient(top, #ABD9FF, #C3F8FF);
+    background-image: linear-gradient(to bottom, #ABD9FF, #C3F8FF);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.contact-block {
+    margin: 40px auto 60px;
+    width: 40%;
+
+}
+
+/**********IMAGES**********/
+
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.computer-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chillies-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
